@@ -1,0 +1,15 @@
+//CARLOS SEBASTIAN RIOS SANCHEZ
+
+#include "stdafx.h"
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+void main ()
+{ cout << "HOLA MUNDO"<< endl;
+getch();
+}
+
+
+
+
