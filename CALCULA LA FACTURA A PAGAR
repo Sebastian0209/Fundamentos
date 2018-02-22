@@ -1,0 +1,15 @@
+//CALCULA LA FACTURA A PAGAR
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main () {
+	float monto,factura;
+	cout<<"Ingrese el monto: ";
+	cin>>monto;
+	factura=monto*(0.13);
+	cout<<"La factura a pagar es: "<<factura<<endl;
+	getch();
+}
