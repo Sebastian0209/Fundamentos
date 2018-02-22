@@ -1,0 +1,17 @@
+//AREA DEL CUADRADO
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main () {
+	float lado,Area;
+	cout<<"Ingrese el lado: ";
+	cin>>lado;
+	Area=lado*lado;
+	cout<<"El Area del cuadrado es: "<<Area<<endl;
+	getch();
+}
+
